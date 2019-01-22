@@ -41,4 +41,6 @@ As it can be seen from the source code, insertion into an Adjacency List hierarc
 Basically, we are viewing the entire Pen assembly as a Set, with its constituent top level assemblies as ‘Nested’ sets to it. Furthermore, sub assemblies to the top level assemblies are considered as Nested sets to them. A table of this format looks like the following - 
 Therefore, as a conclusion - The Adjacency list approach is robust, but it does not hold well for traversing up and down the tree. Here the nested set approach comes in handy, where due to the arrangement of the table traversing up and down is super easy as shown by the stored procedures I have written for this purpose. 
 
+First, run nested.sql. Followed by this, open the "BonusCallers" file and query the given functions!
+
 Thank you! 
